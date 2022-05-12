@@ -1,0 +1,14 @@
+﻿{
+  "name": "link directo",
+  "description": "direct link.",
+  "env": {
+    "administrador": {
+      "description": "El Usuario DE Telegram Q Va A ADministrar El Bot",
+      "value": ""
+    },
+    "bot_token": {
+      "description": "El token del bot",
+      "value": ""
+    }
+  }
+}
