@@ -476,7 +476,7 @@ def onmessage(update,bot:ObigramClient):
         thread.store('msg',message)
 
         if '/start' in msgText:
-            start_msg = 'Bot          : ⚡️🤖RTFree-Alquiler🤖⚡️\n'
+            start_msg = '⚡️🤖RTFree-Alquiler🤖⚡️\n'
             start_msg = 'Hola Panita!😃 @' + str(username)+' .🤖Gracias por contratar los servicios de RTFree_Bot. Disfrute de este bot y descargue todo lo que usted quiera. Hasta 1tb y más puede bajar :D📄Algun problema recuerde contactar con los administradores: @rockstar984 y @Tuguer\n'
             bot.editMessageText(message,start_msg)
         elif '/files' == msgText and user_info['cloudtype']=='moodle':
