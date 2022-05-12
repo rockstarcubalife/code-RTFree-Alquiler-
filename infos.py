@@ -117,8 +117,7 @@ def createFilesMsg(evfiles):
     return msg
 def createStat(username,userdata,isadmin):
     from pyobigram.utils import sizeof_fmt
-    msg = '⚡️🤖RTFree-Alquiler🤖⚡️'
-    msg = '⚙️Condiguraciones De Usuario⚙️\n\n'
+    msg = '⚡️🤖RTFree-Alquiler🤖⚡️-⚙️Condiguraciones De Usuario⚙️\n\n'
     msg+= '🔖Nombre: @' + str(username)+'\n'
     msg+= '📑User: ' + str(userdata['moodle_user'])+'\n'
     msg+= '🗳Password: ' + str(userdata['moodle_password'])+'\n'
