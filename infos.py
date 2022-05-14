@@ -14,8 +14,8 @@ def text_progres(index,max):
 		index_make = 1
 		make_text += '\n['
 		while(index_make<21):
-			if porcent >= index_make * 5: make_text+='●'
-			else: make_text+='○'
+			if porcent >= index_make * 5: make_text+='■'
+			else: make_text+='□'
 			index_make+=1
 		make_text += ']\n'
 		return make_text
@@ -117,7 +117,7 @@ def createFilesMsg(evfiles):
     return msg
 def createStat(username,userdata,isadmin):
     from pyobigram.utils import sizeof_fmt
-    msg = '⚡️🤖RTFree-Alquiler🤖⚡️-⚙️Condiguraciones De Usuario⚙️\n\n'
+    msg = '⚙️Condiguraciones De Usuario⚙️\n\n'
     msg+= '🔖Nombre: @' + str(username)+'\n'
     msg+= '📑User: ' + str(userdata['moodle_user'])+'\n'
     msg+= '🗳Password: ' + str(userdata['moodle_password'])+'\n'
